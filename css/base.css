@@ -1,0 +1,125 @@
+/* This is for lab assignment 4 */
+
+* {
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+body {
+    background-color:#fff;
+    font-family: Helvetica, Georgia, Arial;
+}
+
+header {
+    border:5px;
+    line-height:5px;
+    background-color:#fff;
+    color:#5B9C64;
+    font-family: Helvetica, Georgia, Arial;
+    text-align:center;
+    padding-bottom:10px;
+    margin:0 0px 0 0px;
+}
+
+header h1 {
+    font-size:48px;
+    font-weight:100;
+    line-height:62px;
+    text-align:center;
+}
+
+header nav {
+    text-align:center;
+    background-color:#fff;
+    padding-bottom:0px;
+    padding-top:10px;
+    line-height:22px;
+}
+
+header nav a {
+    
+    color:#717F73;
+    font-weight:300;
+    text-decoration:none;
+    font-size:18px;
+    margin-right:130px;
+    text-align:center;
+    font-family: Helvetica, Georgia, Arial;
+}
+
+header nav a:hover {
+    color:#717F73;
+}
+
+article {
+    background:#fff;
+    color:#5B9C64;
+    line-height:24px;
+    font-family:Arial, Georgia, Helvetica
+    font-size:12px;
+    text-align:left;
+    padding:10px 25px 15px 25px;
+}
+
+article p{
+    font-size:18px;
+}
+
+a {
+  color: #417048;
+  text-decoration: none;
+}
+
+footer {
+    background-color:#fff;
+    color:#717F73;
+    font-family:Helvetica, Georgia, Arial;
+    text-align: center;
+    padding-bottom:10px;
+    padding-top:10px;
+    margin: 0px 50px 0px 50px;
+}
+
+footer p {
+    font-size:12px;
+    padding-top:10px;
+}
+
+footer p a {
+    font-size:12px;
+    padding-top:10px;
+}
+
+footer a {
+    color:#717F73;
+    font-size:18px;
+    font-weight:300;
+    margin-right:130px;
+    padding:5px 5px 5px 5px;
+    font-family:Helvetica, Georgia, Arial;
+    text-decoration:none
+}
+
+footer a:hover {
+    color:#5B9C64;
+}
+
+@media screen (max-width: 600px) {
+    
+    body {
+        padding: 5%;
+        
+    }
+    
+    nav {
+        width: 90%;
+        padding-left: 0;
+    }
+    
+    #content {
+        clear: left;
+        margin-left: 0;
+        width: 95%;
+    }
+}
